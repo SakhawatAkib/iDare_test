@@ -14,8 +14,6 @@ public class MoveIn_XZ_Axis : MonoBehaviour
             mainCamera.WorldToScreenPoint(transform.position).z; //z axis of the game object for screen view
     }
 
-    private float counter = 0;
-
     void OnMouseDrag()
     {
         Vector3 ScreenPosition =
